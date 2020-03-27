@@ -121,6 +121,10 @@ $primary-color: #ffcc00;
             box-sizing: border-box;
             display: inline-block;
             margin: 0 2.5px;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1,1.1);
+            };
         }    
     }
     .description {
